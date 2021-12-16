@@ -1,0 +1,159 @@
+
+
+
+  
+
+  .exploreText{ 
+    font-size: 10px;
+    font-style: italic; 
+  }
+  .plusText{ 
+    font-size: 10px; 
+    margin: 0 2px; 
+    text-transform: capitalize;
+    font-style: italic;
+    color: yellow;
+  }
+
+  
+  .rightMenu{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+
+  .more, .fullName  {
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    cursor: pointer;
+  }
+  .cart {
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px;
+    text-decoration: none;
+  }
+  
+  .authContainer{
+    color: #212121;
+    margin: 0 auto;
+    border-radius: 2px;
+    height: 528px;
+    max-width: 750px;
+    min-width: 650px;
+  }
+  .row{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    height: 528px;
+    max-width: 750px;
+    min-width: 650px;
+  }
+  
+  .leftspace{
+    width: 40%;
+    height: 100%;
+    color: #fff;
+    letter-spacing: 1px;
+    background-image: url('../../images/nadshop4.png');
+    background-color: #C90000;
+    background-repeat: no-repeat;
+    background-position: center 85%;
+    padding: 40px 33px;
+    box-sizing: border-box;
+  }
+  
+  .rightspace{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
+
+  /* FPT SHOP */
+  .header{
+    position:relative;
+    z-index:100;
+    height:56px;
+    background:#cd1818
+  }
+
+  .header-wrap{
+    max-width: 1200px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 0 auto;   
+    align-items: center;
+  }
+  
+  .logo{
+    width: 200px;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .logo .logoimage{
+    width: 143px;
+  }
+
+  .searchInputContainer {
+    width: 560px;
+    position: relative;
+    background: #fff;
+    height: 38px;
+    border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+  }
+
+  .searchInput {
+    width: 518px;
+    border: 0;
+    height: 36px;
+    outline: none;
+    box-sizing: border-box;
+    padding: 0 10px;
+  }
+
+  .searchIconContainer {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: #09130c;
+    cursor: pointer;
+  }
+
+  .loginButton {
+    width: 100px;
+    height: 30px;
+    background: #fff;
+    color: #2874f0;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    border: 0;
+  }
+
+  .loginInputContainer{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 30px;
+    margin: 40px 0;
+  }
